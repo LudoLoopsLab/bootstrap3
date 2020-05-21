@@ -13,6 +13,7 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="css/blog.css" />
     <!-- <script src="./js/bootstrap.js"></script> -->
     <title>Bootstrap</title>
@@ -31,7 +32,7 @@
           </ol>
           <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
-              <li class="active">
+              <li>
                 <a href="index.html">
                   <span class="glyphicon glyphicon-home"></span> Home
                 </a>
@@ -46,7 +47,7 @@
                   <span class="glyphicon glyphicon-asterisk"></span> Les offres
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="blog.html">
                   <span class="glyphicon glyphicon-book"></span> Blog
                 </a>
@@ -75,8 +76,14 @@
         </div>
         <div class="col-xs-4 col-xs-offset-4">
           <blockquote>
-            <p>Keep calm and love DooDoux</p>
-            <small>GroPanda</small>
+            <ul>
+              <li>
+                C’est vrai que vous êtes le fils d’un démon et d’une pucelle ?
+              </li>
+              <li>Oui pourquoi ?</li>
+              <li>Vous avez plus pris de la pucelle…</li>
+            </ul>
+            <small>Arthur et Merlin</small>
           </blockquote>
         </div>
       </div>
@@ -86,51 +93,163 @@
 
     <div class="container content">
       <div class="row content">
-        <div class="jumbotron">
-          <h1>
-            <span class="glyphicon glyphicon-heart"></span> Vive les Doodoux
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            eveniet ipsam saepe ut aspernatur cumque sed nobis veniam? Fuga ad
-            exercitationem culpa nam voluptas sed labore cumque. Repellat,
-            molestiae accusamus.
-          </p>
-          <button class="btn btn-success">
-            <span class="glyphicon glyphicon-shopping-cart"></span> Je craque,
-            je ne peux plus attendre, vite, ouvrez-moi la page!
-          </button>
+        <div class="col-xs-9">
+          <div class="text-center">
+            <ul class="pagination">
+              <li><a href="">&laquo;</a></li>
+              <li class="active"><a href="">1</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
+              <li><a href="">5</a></li>
+              <li><a href="">&raquo;</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Un titre de test</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium voluptas iste, maiores deserunt quia iure accusantium
+              provident amet culpa placeat ratione odio reprehenderit ea. Omnis
+              accusamus cum praesentium impedit nesciunt. Lorem ipsum dolor sit,
+              amet consectetur adipisicing elit. Atque enim sed voluptates
+              libero pariatur doloribus, expedita aperiam earum? Suscipit,
+              vitae! Labore, eaque iste exercitationem a itaque sequi explicabo
+              natus perspiciatis.Pariatur nihil repudiandae aut deleniti
+              distinctio, repellat quisquam harum quos. Distinctio,
+              reprehenderit, quo obcaecati a libero quam ipsam earum iure
+              eligendi harum, aliquid aperiam aut. Iure corrupti illo provident
+              corporis?
+            </p>
+            <ul class="list-inline text-right">
+              <li><a href="#">Commenter</a></li>
+              <li><a href="#">Éditer</a></li>
+              <li><a href="#">Lire la suite ...</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Un titre de test</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium voluptas iste, maiores deserunt quia iure accusantium
+              provident amet culpa placeat ratione odio reprehenderit ea. Omnis
+              accusamus cum praesentium impedit nesciunt. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Ut odio repudiandae porro
+              maxime maiores vero, fugiat perspiciatis, autem, in debitis at
+              blanditiis! Cupiditate mollitia accusantium placeat,
+              exercitationem consequatur a repellendus?
+            </p>
+            <ul class="list-inline text-right">
+              <li><a href="#">Commenter</a></li>
+              <li><a href="#">Éditer</a></li>
+              <li><a href="#">Lire la suite ...</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Un titre de test</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium voluptas iste, maiores deserunt quia iure accusantium
+              provident amet culpa placeat ratione odio reprehenderit ea. Omnis
+              accusamus cum praesentium impedit nesciunt.
+            </p>
+            <ul class="list-inline text-right">
+              <li><a href="#">Commenter</a></li>
+              <li><a href="#">Éditer</a></li>
+              <li><a href="#">Lire la suite ...</a></li>
+            </ul>
+          </div>
+          <div class="text-center">
+            <ul class="pagination">
+              <li><a href="">&laquo;</a></li>
+              <li class="active"><a href="">1</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
+              <li><a href="">5</a></li>
+              <li><a href="">&raquo;</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xs-3">
+          <form id="search">
+            <div class="input-group">
+              <span class="input-group-addon">?</span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Recherche..."
+              />
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-success">GO</button>
+              </span>
+            </div>
+          </form>
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              Catégorie
+            </div>
+            <ul class="nav nav-stacked">
+              <li>
+                <a href=""
+                  >En direct de l'atelier
+                  <span class="badge pull-right">10</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Les nouvelles créations
+                  <span class="badge pull-right">8</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Événements <span class="badge pull-right">2</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              Derniers sujets
+            </div>
+            <ul class="nav nav-stacked">
+              <li><a href=""> Lorem, ipsum.</a></li>
+              <li><a href="">Sujet2</a></li>
+              <li><a href="">Sujet3</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <!-- row content -->
     </div>
-    <!-- container content -->
+
     <div class="container footer text-right">
       <div class="row footer">
         <ul class="list-inline">
           <li>
-            <a href="about.html"
-              ><span class="glyphicon glyphicon-chevron-down"></span> Mentions
-              légales</a
-            >
+            <a href="about.html">
+              <span class="glyphicon glyphicon-chevron-down"></span> Mentions
+              légales
+            </a>
           </li>
           <li>
-            <a href="offers.html"
-              ><span class="glyphicon glyphicon-thumbs-up"></span>
-              Partenaires</a
-            >
+            <a href="offers.html">
+              <span class="glyphicon glyphicon-thumbs-up"></span>
+              Partenaires
+            </a>
           </li>
           <li>
             <a href="blog.html"
               ><span class="glyphicon glyphicon-copyright-mark"></span>
-              Conditions générales</a
-            >
+              Conditions générales
+            </a>
           </li>
           <li>
             <a href="account.html">
-              <span class="glyphicon glyphicon-euro"></span> Paiement en
-              ligne</a
-            >
+              <span class="glyphicon glyphicon-euro"></span> Paiement en ligne
+            </a>
           </li>
         </ul>
       </div>
