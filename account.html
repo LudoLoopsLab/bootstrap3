@@ -13,7 +13,7 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/account.css" />
     <!-- <script src="./js/bootstrap.js"></script> -->
     <title>Bootstrap</title>
   </head>
@@ -31,7 +31,7 @@
           </ol>
           <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
-              <li class="active">
+              <li>
                 <a href="index.html">
                   <span class="glyphicon glyphicon-home"></span> Home
                 </a>
@@ -51,7 +51,7 @@
                   <span class="glyphicon glyphicon-book"></span> Blog
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="account.html">
                   <span class="glyphicon glyphicon-user"></span> Compte
                 </a>
@@ -69,10 +69,6 @@
     </div>
     <!-- container navigation -->
     <div class="container header">
-      <div class="alert alert-danger text-center">
-        <strong>Attention !</strong> Inutile de commander aujourd'hui, les
-        commandes sont bloqué pour soucis de livraison.
-      </div>
       <div class="row header">
         <div class="col-xs-4">
           <img src="img/logo.png" class="img-responsive" />
@@ -89,20 +85,83 @@
     <!-- container header -->
 
     <div class="container content">
-      <div class="row content text-center">
-        <div class="col-xs-12 col-sm-4">
-          <img class="collection size img-responsive" />
+      <div class="row content">
+        <div class="col-xs-2">
+          <img class="avatar mini img-responsive" />
         </div>
-        <div class="col-xs-12 col-sm-4">
-          <img class="fabric size img-responsive" />
+        <div class="col-xs-2">
+          <address>
+            <strong>Julien Moulin</strong><br />12 rue des machins <br />
+            75000 Paris <br />
+            <abbr title="phone"
+              ><span class="glyphicon glyphicon-earphone"></span>:
+            </abbr>
+            0123456789 <br />
+            <abbr title="email">
+              <span class="glyphicon glyphicon-envelope"></span>:
+            </abbr>
+            <a href="mailto:julien@julien.com">julien@jul.com </a><br />
+          </address>
         </div>
-        <div class="col-xs-12 col-sm-4">
-          <img class="box size img-responsive" />
+        <div class="col-xs-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">Mes commandes</div>
+            <div class="panel-body"><p>Informations sur les commandes</p></div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Référence</th>
+                  <th>Date</th>
+                  <th>Montant</th>
+                  <th>Status</th>
+                  <tbody>
+                    <tr>
+                      <td>RGFEE4</td>
+                      <td>13/05/22</td>
+                      <td>132,50€</td>
+                      <td><span class="label label-success">OK</span></td>
+                    </tr>
+                  </tbody>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+        <div class="col-xs-4">
+
+          <div class="panel panel-warning">
+            <div class="panel-heading">Mes Paiements</div>
+            <div class="panel-body"><p>Informations sur les ventes</p></div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Référence</th>
+                  <th>Date</th>
+                  <th>Montant</th>
+                  <th>Status</th>
+                  <tbody>
+                    <tr>
+                      <td>ZDFEE4</td>
+                      <td>13/05/22</td>
+                      <td>8002,50€</td>
+                      <td><span class="label label-success">OK</span></td>
+                    </tr>
+                    <tr>
+                      <td>YkiEE4</td>
+                      <td>13/05/20</td>
+                      <td>1010,90€</td>
+                      <td><span class="label label-danger">FAIL</span></td>
+                    </tr>
+                  </tbody>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
         </div>
       </div>
-      <!-- row content -->
     </div>
-    <!-- container content -->
+
     <div class="container footer text-right">
       <div class="row footer">
         <ul class="list-inline">

@@ -9,10 +9,26 @@ body {
   margin-right: 15px;
 }
 
-.header  {
+.header {
   margin-top: 10px;
 }
 .header {
   margin-bottom: 25px;
 }
 
+.collection {
+  background: url("https://picsum.photos/id/1060/600/400") center;
+  background-size: cover;
+}
+.fabric {
+  background: url("https://picsum.photos/id/30/600/400") center;
+  background-size: cover;
+}
+.box {
+  background: url("https://picsum.photos/id/42/600/400") center;
+  background-size: cover;
+}
+.size {
+  height: 400px;
+  width: 400px;
+}

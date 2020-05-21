@@ -1,0 +1,30 @@
+body {
+  padding-top: 70px;
+}
+.navigation .breadcrumb {
+  float: left;
+  margin: 7px 10px;
+}
+.navbar-nav {
+  margin-right: 15px;
+}
+
+.header {
+  margin-top: 10px;
+}
+.header {
+  margin-bottom: 25px;
+}
+
+.avatar {
+  background: url("https://picsum.photos/id/1011/600/400") center;
+  background-size: cover;
+}
+
+.mini {
+  height: 100px;
+  width: 100px;
+}
+tr .label {
+  line-height: 1.7;
+}
