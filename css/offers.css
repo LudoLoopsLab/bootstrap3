@@ -15,6 +15,28 @@ body {
 .header {
   margin-bottom: 25px;
 }
-#logo {
-  /* margin-top: 15px; */
+
+.collection,
+.fabric,
+.box {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.collection {
+  background: url("https://picsum.photos/id/1060/600/400") center;
+  background-size: cover;
+}
+.fabric {
+  background: url("https://picsum.photos/id/30/600/400") center;
+  background-size: cover;
+}
+.box {
+  background: url("https://picsum.photos/id/42/600/400") center;
+  background-size: cover;
+}
+.mini {
+  height: 100px;
+  width: 100px;
 }
