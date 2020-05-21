@@ -1,0 +1,20 @@
+body {
+  padding-top: 70px;
+}
+.navigation .breadcrumb {
+  float: left;
+  margin: 7px 10px;
+}
+.navbar-nav {
+  margin-right: 15px;
+}
+
+.header blockquote {
+  margin-top: 10px;
+}
+.header {
+  margin-bottom: 25px;
+}
+#logo {
+  /* margin-top: 15px; */
+}
